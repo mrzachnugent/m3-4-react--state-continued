@@ -6,7 +6,7 @@
   styles from most elements, ensuring things render equally across all
   browsers. We also add a few conveniences, like box-sizing: border-box.
  */
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     *,
@@ -20,7 +20,8 @@ export default createGlobalStyle`
     input, button, select, option,
     h1, h2, h3, h4, h5, h6, p,
     text {
-        font-family: sans-serif;
+        font-family: 'Inter', sans-serif;
+        box-sizing: border-box;
     }
 
     html, body {
